@@ -5,4 +5,4 @@
 #endif
 
 #include "framework.h"
-#include "rnnoise.h"
+#include "../include/rnnoise.h"

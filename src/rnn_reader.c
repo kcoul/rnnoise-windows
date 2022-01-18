@@ -28,13 +28,15 @@
 #include "config.h"
 #endif
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
 
 #include "rnn.h"
 #include "rnn_data.h"
-#include "rnnoise.h"
+#include "../include/rnnoise.h"
 
 /* Although these values are the same as in rnn.h, we make them separate to
  * avoid accidentally burning internal values into a file format */

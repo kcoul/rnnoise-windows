@@ -1,9 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
-#include "rnnoise.h"
+#include "../include/rnnoise.h"
 #include <stdint.h>
 #define FRAME_SIZE 480
 
-#include "unittest_helper.h"
+#include "../unittest-tool/unittest_helper.h"
 
 // The wrapped of rnnoise's |rnnoise_process_frame| function so as to make sure its input/outpu is |f32| format.
 // Note tha the frame size is fixed 480.
